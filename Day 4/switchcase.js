@@ -2,7 +2,6 @@ let day=5;
 
 switch(day)
 {
-    default: console.log("No such a day");
     case 1: console.log("Sunday"); break;
     case 2: console.log("Monday"); break;
     case 3: console.log("Tuesday"); break;
@@ -10,4 +9,5 @@ switch(day)
     case 5: console.log("Thursday"); break;
     case 6: console.log("Friday"); break;
     case 7: console.log("Saturday"); break;
+    default: console.log("No such a day");
 }
